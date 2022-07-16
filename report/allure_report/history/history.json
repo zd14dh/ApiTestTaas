@@ -1,0 +1,79 @@
+{
+  "e672a245af5fff9723d7828058cd9338" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "22e497a08e422bd0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653639504078,
+        "stop" : 1653639504211,
+        "duration" : 133
+      }
+    } ]
+  },
+  "597b88e1b3d3d5292909b279b1c69024" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1631b18408bc95c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653639503931,
+        "stop" : 1653639504076,
+        "duration" : 145
+      }
+    } ]
+  },
+  "27df0627900123920d9c0fba15f7352d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe78ce578a81a3d4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert not {\"root['pageIndex']\": {'new_value': 1, 'old_value': 2}}\n +  where {\"root['pageIndex']\": {'new_value': 1, 'old_value': 2}} = <built-in method get of DeepDiff object at 0x0000025F066A4CA8>('values_changed', None)\n +    where <built-in method get of DeepDiff object at 0x0000025F066A4CA8> = {'dictionary_item_added': [root['totalRecords'], root['data']], 'values_changed': {\"root['pageIndex']\": {'new_value': 1, 'old_value': 2}}}.get\n +      where {'dictionary_item_added': [root['totalRecords'], root['data']], 'values_changed': {\"root['pageIndex']\": {'new_value': 1, 'old_value': 2}}} = DeepDiff({'pageIndex': 2, 'pageSize': 12}, {'data': [{'createdAt': 1652949620794, 'description': None, 'id': '724705078904229888', 'manufacturerId': '70729432989...713490706432', 'manufacturerId': '705855085338562560', ...}, ...], 'pageIndex': 1, 'pageSize': 12, 'totalRecords': 139})",
+      "time" : {
+        "start" : 1653639504214,
+        "stop" : 1653639504241,
+        "duration" : 27
+      }
+    } ]
+  },
+  "b55a4bf00ea257eda2592d0a042d0979" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ad6a7943001e6a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1653639504300,
+        "stop" : 1653639504330,
+        "duration" : 30
+      }
+    } ]
+  }
+}

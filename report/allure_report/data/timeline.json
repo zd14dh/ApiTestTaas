@@ -1,0 +1,81 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "SZT22020030903",
+    "children" : [ {
+      "name" : "12080-MainThread",
+      "children" : [ {
+        "name" : "test_case[item2]",
+        "uid" : "fe78ce578a81a3d4",
+        "parentUid" : "9ef0a9219f9d96e18cf1573fe35104f6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1653639504214,
+          "stop" : 1653639504241,
+          "duration" : 27
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_num': 'nub_003', 'title': 'log', 'url': 'http://172.28.2.45/api/v1/pps/products?pageIndex=1&pageSize=12', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': 'nub_001', 'headers': '{\"Authorization\":\"${nub_001>response_json>accessToken}$\"}', 'except': '{\"pageIndex\": 2, \"pageSize\": 12}'}" ]
+      }, {
+        "name" : "test_case[item0]",
+        "uid" : "1631b18408bc95c0",
+        "parentUid" : "9ef0a9219f9d96e18cf1573fe35104f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653639503931,
+          "stop" : 1653639504076,
+          "duration" : 145
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_num': 'nub_001', 'title': 'log', 'url': 'http://172.28.2.45/api/v1/login', 'method': 'post', 'params': '', 'data': '', 'json': '{\"account\":\"tenant_admin@fatri.cn\",\\n\"credential\":\"Aa1234567890-\"}', 'cookies': '', 'headers': '', 'except': '{\"expiresIn\":86400}'}" ]
+      }, {
+        "name" : "test_case[item1]",
+        "uid" : "22e497a08e422bd0",
+        "parentUid" : "9ef0a9219f9d96e18cf1573fe35104f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653639504078,
+          "stop" : 1653639504211,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_num': 'nub_002', 'title': 'log', 'url': 'http://172.28.2.45/api/v1/stations', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': '', 'headers': '{\"Authorization\":\"${nub_001>response_json>accessToken}$\"}', 'except': '{\"data\": [{\"id\":\"722490743897329664\", \"tenantId\": \"366928047041024000\",\"name\": \"矿石精炼厂\"}]}'}" ]
+      }, {
+        "name" : "test_case[item3]",
+        "uid" : "1ad6a7943001e6a7",
+        "parentUid" : "9ef0a9219f9d96e18cf1573fe35104f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1653639504300,
+          "stop" : 1653639504330,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'case_num': 'nub_004', 'title': 'log', 'url': 'http://172.28.2.45/api/v1/pps/products?pageIndex=1&pageSize=12', 'method': 'get', 'params': '', 'data': '', 'json': '', 'cookies': 'nub_001', 'headers': '{\"Authorization\":\"${nub_001>response_json>accessToken}$\"}', 'except': '{\"pageIndex\": 1, \"pageSize\": 12}'}" ]
+      } ],
+      "uid" : "9ef0a9219f9d96e18cf1573fe35104f6"
+    } ],
+    "uid" : "757fe1b8a07fb96d22bced6c7129b561"
+  } ]
+}
