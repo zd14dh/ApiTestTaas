@@ -3,7 +3,7 @@ allure报告相关
 '''
 import os
 import time
-import win32com.client as win32
+# import win32com.client as win32
 from subprocess import Popen,call
 from conf import settings
 from conf.settings import ALLURE_COMMAND
@@ -17,7 +17,7 @@ class AllureOperate(object):
 
         self.check_zip()
 
-        self.send_mail(filed)
+#         self.send_mail(filed)
     def check_zip(self):
         '''打包'''
         import zipfile
