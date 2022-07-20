@@ -1,9 +1,12 @@
 import os
 import allure
+import pytest
+
+from conf import settings
 from deepdiff import DeepDiff
 from utils.ExcelHandler import ExcelOperate
 from utils.RequestHandler import RequestOperate
-import pytest
+
 from conf import settings
 
 excel_list= ExcelOperate(settings.FILE_PATH,0).get_excel()

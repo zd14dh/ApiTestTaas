@@ -15,9 +15,9 @@ class AllureOperate(object):
         # os.system(ALLURE_COMMAND)
         call(ALLURE_COMMAND,shell=True)
 
-        self.check_zip()
+        # self.check_zip()
 
-        self.send_mail(filed)
+        # self.send_mail(filed)
     def check_zip(self):
         '''打包'''
         import zipfile
